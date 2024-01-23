@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
   min-height: 100vh;
   width: 100%;
   background: hsl(47, 88%, 63%);
@@ -45,6 +45,12 @@ h3 {
   font-size: 15px;
   margin: 0 0 10px 0;
   font-weight: 600;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
 }
 
 .attribution {
@@ -97,15 +103,14 @@ h3 {
 
 @media only screen and (max-width: 400px) {
   .container {
-    max-width: 18rem;
+    max-width: 18.5rem;
+    padding: 1rem;
   }
-  .illustration {
+  .container .illustration {
     width: 100%;
   }
-  h1 {
+  .container h1 {
     font-size: 1rem;
-  }
-  .description {
-    font-size: 13px;
+    margin: 0 0 0.5rem 0;
   }
 }/*# sourceMappingURL=style.css.map */

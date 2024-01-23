@@ -1,4 +1,4 @@
-@use '../abstracts/index' as *;
+@use "../abstracts/index" as *;
 
 h1 {
   font-size: 1.25rem;
@@ -25,4 +25,10 @@ h3 {
   font-size: 15px;
   margin: 0 0 10px 0;
   font-weight: 600;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
 }
