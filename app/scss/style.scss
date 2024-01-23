@@ -1,0 +1,22 @@
+@forward "abstracts/index";
+@forward 'globals/index';
+@forward 'components/index';
+@forward 'layout/index';
+
+@media only screen and (max-width: 400px) {
+    .container{
+      max-width: 18rem;
+    }
+  
+    .illustration {
+      width: 100%;
+    }
+  
+    h1{
+      font-size: 1rem;
+    }
+  
+    .description{
+      font-size: 13px;
+    }
+  }

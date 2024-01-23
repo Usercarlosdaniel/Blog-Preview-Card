@@ -1,0 +1,28 @@
+@use '../abstracts/index' as *;
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+  &:hover {
+    cursor: pointer;
+    color: $yellow;
+  }
+}
+
+h2 {
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  background: $yellow;
+  display: inline-block;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
