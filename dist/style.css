@@ -32,9 +32,9 @@ h1:hover {
 }
 
 h2 {
-  padding: 5px 8px;
+  padding: 0.188rem 0.563rem;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 800;
   background: hsl(47, 88%, 63%);
   display: inline-block;
   margin-bottom: 1rem;
@@ -44,7 +44,7 @@ h2 {
 h3 {
   font-size: 0.813rem;
   margin: 0 0 10px 0;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 a,
@@ -78,11 +78,11 @@ a:active {
   border-radius: 1.25rem;
   padding: 1.25rem;
   box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 .container .description {
   color: hsl(0, 0%, 50%);
-  margin: 0 0 20px 0;
+  margin: 0 0 1.25rem 0;
   font-weight: 400;
 }
 .container .autor {
