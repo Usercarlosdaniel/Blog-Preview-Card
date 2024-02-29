@@ -1,30 +1,29 @@
-@use '../abstracts/index' as *;
+@use "../abstracts/index" as *;
 
 .container {
-  width: 24rem;
+  width: 23.75rem;
   background: $white;
   border: 1px solid $black;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 10px 10px 0 $black;
+  box-shadow: 8px 8px 0 $black;
   & .description {
     color: $grey;
     margin: 0 0 20px 0;
-    opacity: 0.8;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 400;
   }
   & .autor {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    justify-content: left;
     align-items: center;
     & .image-autor {
-      width: 35px;
+      margin-right: 0.6rem;
+      width: 33px;
     }
     & .name-autor {
-      margin: 0 0 0 5px;
+      font-size: 0.8rem;
       font-weight: 800;
-      &:hover{
+      &:hover {
         cursor: pointer;
         color: $yellow;
       }

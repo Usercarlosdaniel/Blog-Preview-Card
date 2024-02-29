@@ -14,6 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 1rem;
+  line-height: 1.5;
   gap: 2rem;
   min-height: 100vh;
   width: 100%;
@@ -21,9 +23,9 @@ body {
 }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 800;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
 h1:hover {
   cursor: pointer;
@@ -31,18 +33,17 @@ h1:hover {
 }
 
 h2 {
-  padding: 8px;
-  font-size: 15px;
-  letter-spacing: 2px;
+  padding: 5px 8px;
+  font-size: 13px;
   font-weight: 800;
   background: hsl(47, 88%, 63%);
   display: inline-block;
-  margin: 0 0 20px 0;
+  margin-bottom: 1rem;
   border-radius: 5px;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 0.813rem;
   margin: 0 0 10px 0;
   font-weight: 600;
 }
@@ -64,36 +65,36 @@ a:active {
 .illustration {
   display: block;
   margin: auto;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
   margin: 0 0 20px 0;
 }
 
 .container {
-  width: 24rem;
+  width: 23.75rem;
   background: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
 }
 .container .description {
   color: hsl(0, 0%, 50%);
   margin: 0 0 20px 0;
-  opacity: 0.8;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 400;
 }
 .container .autor {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  justify-content: left;
   align-items: center;
 }
 .container .autor .image-autor {
-  width: 35px;
+  margin-right: 0.6rem;
+  width: 33px;
 }
 .container .autor .name-autor {
-  margin: 0 0 0 5px;
+  font-size: 0.8rem;
   font-weight: 800;
 }
 .container .autor .name-autor:hover {
