@@ -1,18 +1,21 @@
-@forward "abstracts/index";
-@forward 'globals/index';
-@forward 'components/index';
-@forward 'layout/index';
+@forward "abstracts";
+@forward "globals";
+@forward "components";
+@forward "layout";
 
-@media only screen and (max-width: 400px) {
-    .container{
-      max-width: 18.5rem;
-      padding: 1rem;
-      & .illustration {
-      width: 100%;
+@media only screen and (max-width: 25em) {
+  .card {
+    max-width: 18.5em;
+    padding: 1em;
+    &__title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5em;
     }
-    & h1{
-      font-size: 1rem;
-      margin: 0 0 .5rem 0;
+    &__date {
+      font-size: .7rem;
     }
+    &__description {
+      font-size: .8rem;
     }
   }
+}

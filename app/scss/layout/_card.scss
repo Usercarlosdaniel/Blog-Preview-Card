@@ -1,0 +1,37 @@
+@use "../abstracts" as *;
+
+.card {
+  width: 23.75em;
+  background: var(--neutral-100);
+  border-radius: 1.25em;
+  padding: 1.25em;
+  transition: all 0.3s ease;
+  margin: 2em 0;
+  &:hover {
+    box-shadow: 10px 10px 0 0 var(--neutral-900);
+    transform: translate(-10px, -10px);
+  }
+  &__description {
+    color: var(--neutral-600);
+    margin: 0 0 1.25em 0;
+    font-weight: var(--fontWeightNormal);
+  }
+  &__autor {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    &__image {
+      margin-right: 0.6em;
+      width: 2.06em;
+    }
+    &__name {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--neutral-900);
+      &:hover {
+        cursor: pointer;
+        color: var(--primary);
+      }
+    }
+  }
+}
